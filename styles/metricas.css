@@ -1,0 +1,30 @@
+.metricas{
+    margin: 0.8em 5em 0 8em;
+}
+
+.lista {
+    display: flex;
+    gap: 100px;
+}
+
+.lista__metricas,
+.indicadores {
+    list-style-type: none;
+}
+
+.indicadores__itens--numero {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--dark-red);
+}
+
+.indicadores__itens--titulo {
+    font-size: 18px;
+    color: var(--dark-blue);
+    padding: 0.5em 0 ;
+}
+
+.indicadores__itens--texto {
+    font-weight: 400;
+    color: var(--gray);
+}

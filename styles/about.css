@@ -1,0 +1,23 @@
+.about {
+    text-align: center;
+    padding: 6em;
+}
+
+.about__titulo {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--dark-red);
+}
+
+.about__subtitulo {
+    font-size: 48px;
+    color: var(--dark-blue);
+    padding: 0.5em;
+}
+
+.about__descricao {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray);
+    padding: 0.5em 12.5em 0 12.5em;
+}

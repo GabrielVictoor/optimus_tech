@@ -1,0 +1,37 @@
+.card {
+    padding: 6em;
+    padding-top: 5em;
+    
+}
+
+.container__card {
+    background-color: var(--light-scarlet);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 6%;
+}
+
+.container__card--titulo{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--dark-red);  
+}
+
+.container__card--subtitulo {
+    font-size: 36px;
+    color: var(--dark-blue);
+    padding: 0.5em 0 1em;
+}
+
+.container__card--colaborador {
+    color: var(--dark-blue);
+    padding: 0.5em 0 0.5em;
+}
+
+.container__card--cargo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray);
+}
